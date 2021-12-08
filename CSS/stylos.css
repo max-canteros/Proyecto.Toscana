@@ -12,6 +12,17 @@
     margin: 20px 40px;
 }
 
+.header__logo{
+    display: inline;
+    padding: 0px;
+}
+
+.header__logo:hover{
+    transition-duration: 2s;
+
+}
+
+
 .header__idioma{
     display: flex;
     align-items: center;
