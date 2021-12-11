@@ -43,19 +43,19 @@
     text-decoration: none;
     list-style: none;
     background-color: #bf4342;
-    display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
+    padding: 0;
 }
 
 .nav__menu--item{
     display: inline-block;
 }
 
-header a{
+.a_header{
     display: block;
-    color:white;
+    color:white !important;
     padding: 30px 10px;
     text-decoration: none;
     font-family: 'Bodoni Moda', serif;
@@ -63,8 +63,9 @@ header a{
     font-size: 1.2rem;
     transition: all .5s ease;
 }
-header a:hover{
+.a_header:hover{
     background-color:#7F2C27;
+    color: white;
 }
 main a{
     display: block;
@@ -392,6 +393,7 @@ footer a{
 
 /* INDEX */
 @media screen and (max-width: 768px) {
+    
     .header{
         flex-direction: column;
         text-align: center;
@@ -483,4 +485,10 @@ footer a{
     flex-direction: column;
 }
 
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-brand{
+        display: none;
+    }
 }
