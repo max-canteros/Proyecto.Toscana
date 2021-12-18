@@ -1,0 +1,47 @@
+@import"vars";
+
+.complemento__footer{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    width: 100%;
+}
+
+.contenedor__footer{
+    flex-basis: 50%;
+    text-align: center;
+    color:white;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2;
+}
+.sub__text{
+    text-align: center;
+    color: $color-secundario;
+    font-size: 2rem;
+    line-height: 2;
+}
+.footer__image--redes{
+    width: 80px;
+}
+.navegador__footer{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+   
+}
+footer a{
+    display: block;
+    color: $color-secundario;
+    text-decoration: none;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    display: inline-block;
+    justify-content: center;
+}
+.trip{
+    width: 100%;
+}

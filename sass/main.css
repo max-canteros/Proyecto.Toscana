@@ -1,0 +1,567 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,700;1,500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px 40px;
+}
+
+.header__logo {
+  display: inline;
+  padding: 0px;
+}
+
+.header__logo:hover {
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
+.header__idioma {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logoidioma {
+  width: 20px;
+  height: 20px;
+}
+
+.barra__separadora {
+  width: 100%;
+  height: 10px;
+  background-color: #735751;
+}
+
+.nav__menu {
+  text-decoration: none;
+  list-style: none;
+  background-color: #bf4342;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+}
+
+.nav__menu--item {
+  display: inline-block;
+}
+
+.nav__menu .a_header {
+  display: block;
+  color: white !important;
+  padding: 30px 10px;
+  text-decoration: none;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.nav__menu .a_header:hover {
+  background-color: #7F2C27;
+  color: white;
+}
+
+main a {
+  display: block;
+  color: white;
+  padding: 30px 60px;
+  text-decoration: none;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+main a:hover {
+  background-color: #7F2C27;
+}
+
+section a {
+  display: block;
+  color: white !important;
+  padding: 30px 60px;
+  text-decoration: none;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+section a:hover {
+  background-color: #7F2C27;
+}
+
+.hero__contenedor {
+  background-image: url(../img/imagen-apaisada.jpeg);
+  height: 800px;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+}
+
+.hero__texto {
+  width: 1000px;
+  color: white !important;
+  padding: 30px 60px;
+  text-decoration: none;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 700;
+  font-size: 6rem;
+  margin-left: 90px;
+  font-style: bold;
+}
+
+.nav__menu--hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  background-color: #4E6557;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 0px;
+}
+
+.complemento__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 60px 60px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 50px;
+  background-color: #7F2C27;
+}
+
+.contenedor__main {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  text-align: center;
+  color: white !important;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 2;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.contenedor__main h1 {
+  text-align: center;
+}
+
+.contenedor__main--columna {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 50px;
+}
+
+.imagen__historia {
+  width: 100%;
+}
+
+.video__section {
+  width: 100%;
+  height: 100%;
+}
+
+.map__section {
+  width: 100%;
+  height: 100%;
+}
+
+.complemento__footer {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 50px;
+  width: 100%;
+}
+
+.contenedor__footer {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  text-align: center;
+  color: white;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 2;
+}
+
+.sub__text {
+  text-align: center;
+  color: #4E6557;
+  font-size: 2rem;
+  line-height: 2;
+}
+
+.footer__image--redes {
+  width: 80px;
+}
+
+.navegador__footer {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+footer a {
+  display: block;
+  color: #4E6557;
+  text-decoration: none;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  display: inline-block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.trip {
+  width: 100%;
+}
+
+.section__conocenos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+  font-family: 'Bodoni Moda', serif;
+  color: white;
+  text-align: center;
+  padding: 14px 0px;
+  background-color: #4E6557;
+}
+
+.conocenos__Imagen {
+  width: 100%;
+}
+
+.section__conocenos__contenedor--vertical {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: bold;
+  font-family: 'Bodoni Moda', serif;
+  color: white;
+  text-align: center;
+  padding: 14px 0px;
+}
+
+.contenedor__nuestrahistoria {
+  display: -ms-grid;
+  display: grid;
+  background-color: #4E6557;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.contenedor__nuestrahistoria--flexTexto {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+}
+
+.nuestrahistoria {
+  text-align: left;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.4;
+  font-family: 'Bodoni Moda', serif;
+  color: whitesmoke;
+  font-style: italic;
+}
+
+.nuestrahistoria--titulo {
+  color: black;
+}
+
+.nuestrahistoria1 {
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: 1.4;
+  font-family: 'Bodoni Moda', serif;
+  color: whitesmoke;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.nuestrahistoria--texto2 {
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 20px;
+}
+
+.nuestrahistoria--flexTexto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #729981;
+  padding: 3rem;
+  gap: 3rem;
+  text-align: justify;
+  font-family: 'Abel', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333333;
+}
+
+.nuestrahistoria--flexTexto1 {
+  text-align: justify;
+  font-family: 'Abel', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #729981;
+  font-weight: lighter;
+}
+
+.contenedor__nuestrahistoria img {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.body__form {
+  background-color: #4E6557;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+}
+
+.body__form .form .form__header .form__title {
+  font-weight: normal;
+  font-family: 'Bodoni Moda', serif;
+  color: #fff;
+  text-align: center;
+  padding: 14px 0px;
+}
+
+.body__form .form .form__header .form__title span {
+  color: #bf4342;
+}
+
+.body__form .form {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 90%;
+  max-width: 650px;
+  margin: auto;
+  padding: 5px 35px;
+  padding-bottom: 30px;
+  border-radius: 3px;
+}
+
+.body__form .form .form__label {
+  display: block;
+  color: #4E6557;
+  font-size: 16px;
+  font-family: 'Bodoni Moda', serif;
+  position: relative;
+}
+
+.body__form .form .form__imput, .form__textarea {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #4E6557;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: white;
+  font-family: 'Bodoni Moda', serif;
+}
+
+.body__form .form .form__textarea {
+  resize: vertical;
+  max-height: 150px;
+  min-height: 50px;
+}
+
+.body__form .form .btn__submit {
+  width: 100%;
+  font-family: 'Bodoni Moda', serif;
+  background-color: #4E6557;
+  font-size: 16px;
+  border: none;
+  color: white;
+  padding: 15px 0;
+  cursor: pointer;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.body__form .form .btn__submit:hover {
+  background-color: #729981;
+}
+
+/* MEDIA QUERIES*/
+/* INDEX */
+@media screen and (max-width: 768px) {
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .header__idioma {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .nav__menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header a {
+    text-align: center;
+  }
+  .hero__contenedor {
+    width: 100%;
+    height: 100%;
+  }
+  .hero__texto {
+    width: auto;
+    color: white;
+    font-size: 3rem;
+    margin-left: 0px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  .nav__menu--item--hero {
+    text-align: center;
+  }
+  .complemento__main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px;
+    background-color: #7F2C27;
+  }
+  .contenedor__main {
+    text-align: justify;
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .map__section {
+    height: 400px;
+  }
+  .complemento__footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  /* CONOCENOS */
+  .section__conocenos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0px;
+    gap: 0px;
+  }
+  .section__conocenos__contenedor--vertical {
+    padding: 0px;
+  }
+  /* RESERVAS */
+  .body__form {
+    padding: 0px;
+  }
+  .body__form .form {
+    padding: 15px;
+  }
+  .form__textarea {
+    padding-bottom: 0px;
+  }
+  /* NUESTRA HISTORIA*/
+  .contenedor__nuestrahistoria {
+    grid: none;
+  }
+  .nuestrahistoria--flexTexto {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */

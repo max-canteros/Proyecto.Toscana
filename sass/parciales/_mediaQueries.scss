@@ -1,0 +1,104 @@
+
+/* MEDIA QUERIES*/
+
+/* INDEX */
+@media screen and (max-width: 768px) {
+    
+    .header{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header__idioma{
+        justify-content: center;
+    }
+    .nav__menu{
+        flex-direction: column;
+    
+    }
+
+    header a{
+        text-align: center;
+    }
+    .hero__contenedor{
+        width: 100%;
+        height: 100%;
+       
+    } 
+    .hero__texto{
+        width: auto;
+        color:white;
+        font-size: 3rem;
+        margin-left: 0px;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .nav__menu--item--hero{
+        text-align: center;
+    }
+
+    .complemento__main{
+       flex-direction: column;
+       padding: 10px;
+       background-color: #7F2C27;
+    }
+
+    .contenedor__main{
+        text-align: justify;
+        color:white;
+        font-family: 'Bodoni Moda', serif;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .map__section{
+        height: 400px;
+    }   
+    
+    .complemento__footer{
+        flex-direction: column;
+    }
+
+    /* CONOCENOS */
+
+    .section__conocenos{
+        flex-direction: column;
+        padding: 0px;
+        gap: 0px;
+    }
+
+    .section__conocenos__contenedor--vertical{
+        padding: 0px ;
+    }
+
+    
+    /* RESERVAS */
+
+    .body__form{
+       padding: 0px;
+    }
+    .body__form .form {
+        padding: 15px;
+
+    }    
+    .form__textarea {
+        padding-bottom: 0px;
+    }
+
+/* NUESTRA HISTORIA*/
+
+.contenedor__nuestrahistoria{
+   grid: none;
+}
+.nuestrahistoria--flexTexto{
+    flex-direction: column;
+}
+
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-brand{
+        display: none;
+    }
+}

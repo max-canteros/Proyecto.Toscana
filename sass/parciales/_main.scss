@@ -1,0 +1,62 @@
+@import"vars";
+
+main a{
+    display: block;
+    color:white;
+    padding: 30px 60px;
+    text-decoration: none;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    transition: all .5s ease;
+    
+    &:hover{
+        background-color: $color-terciario; 
+    }
+}
+
+section a{
+    display: block;
+    color:white !important;
+    padding: 30px 60px;
+    text-decoration: none;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: center;
+   
+    &:hover{
+        background-color: $color-terciario;
+    }
+}
+
+.hero__contenedor{
+    background-image: url(../img/imagen-apaisada.jpeg);
+    height: 800px;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+} 
+
+.hero__texto{
+    width: 1000px;
+    color:white !important;
+    padding: 30px 60px;
+    text-decoration: none;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 700;
+    font-size: 6rem;
+    margin-left: 90px;
+    font-style: bold;
+}
+
+.nav__menu--hero{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    background-color: $color-secundario;
+    justify-content: center;
+    margin-bottom: 0px;
+}

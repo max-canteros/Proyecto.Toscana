@@ -1,0 +1,72 @@
+
+.body__form{
+    background-color: #4E6557;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+
+.body__form .form .form__header .form__title{ 
+    font-weight: normal;
+    font-family: 'Bodoni Moda', serif;
+    color: #fff;
+    text-align: center;
+    padding: 14px 0px ;
+}
+.body__form .form .form__header .form__title span{
+    color:#bf4342;
+}
+
+.body__form .form{
+    background-color: rgba(0,0,0,.6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+.body__form .form .form__label{
+    display: block;
+    color: #4E6557;
+    font-size: 16px;
+    font-family: 'Bodoni Moda', serif;
+    position: relative;
+
+}
+
+.body__form .form .form__imput, .form__textarea{
+    background-color: rgba(0,0,0,.7);
+    border: none;
+    outline: none;
+    border-bottom:  2px solid #4E6557;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px; 
+    border-radius: 2px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.body__form .form .form__textarea{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+
+.body__form .form .btn__submit{
+    width: 100%;
+    font-family: 'Bodoni Moda', serif;
+    background-color: #4E6557;
+    font-size: 16px;
+    border: none;
+    color: white;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+} 
+.body__form .form .btn__submit:hover{
+    background-color: #729981;
+}

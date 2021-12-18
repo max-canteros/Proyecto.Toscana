@@ -1,0 +1,64 @@
+@import"vars";
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+
+    &__logo{
+        display: inline;
+        padding: 0px;
+
+        &:hover{
+            transition-duration: 2s;
+        }
+    }
+
+    &__idioma{
+        display: flex;
+        align-items: center;
+    }
+
+    &__logoidioma{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+    .barra__separadora{
+        width: 100%;
+        height: 10px;
+        background-color: #735751;
+    }
+
+
+    .nav__menu{
+        text-decoration: none;
+        list-style: none;
+        background-color: $color-principal;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        
+        &--item{
+        display: inline-block;
+        }
+    
+
+    .a_header{
+    display: block;
+    color:white !important;
+    padding: 30px 10px;
+    text-decoration: none;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    transition: all .5s ease;
+        
+        &:hover{
+            background-color: $color-terciario;
+            color: white;
+        }
+    }
+}

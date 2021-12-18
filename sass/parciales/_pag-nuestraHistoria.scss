@@ -1,0 +1,73 @@
+.contenedor__nuestrahistoria{
+    display: grid;
+    background-color: #4E6557;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.contenedor__nuestrahistoria--flexTexto{
+    grid-column: 1/4;
+}
+
+.nuestrahistoria{
+    text-align: left;
+    align-self: center;
+    margin-bottom: 20px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-family: 'Bodoni Moda', serif;
+    color:whitesmoke;
+    font-style: italic;
+}
+.nuestrahistoria--titulo{
+    color: black;
+}
+.nuestrahistoria1{
+    text-align: center;
+    align-self: center;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+    font-family: 'Bodoni Moda', serif;
+    color:whitesmoke;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+
+.nuestrahistoria--texto2{
+    text-align: center;
+    align-self: center;
+    margin-bottom: 20px;
+
+}
+.nuestrahistoria--flexTexto{
+    display: flex;
+    background-color: #729981;
+    padding: 3rem;
+    gap: 3rem;
+    text-align: justify;
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+.nuestrahistoria--flexTexto1{
+    text-align: justify;
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #729981;
+    font-weight: lighter;
+
+}
+
+.contenedor__nuestrahistoria img {
+    width: 100%;
+    height: 100%;
+    padding:0;
+    filter: grayscale(100%);
+}
