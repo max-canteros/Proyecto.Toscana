@@ -1,0 +1,7 @@
+@each $miembro in miembro-1, miembro-2, miembro-3, miembro-4, miembro-5, miembro-6 {
+    .conocenos__Imagen--#{$miembro}{
+        background-image: url("../img/#{$miembro}.jpeg");
+   
+    }
+    
+}

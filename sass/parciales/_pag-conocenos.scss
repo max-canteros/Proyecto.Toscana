@@ -7,17 +7,10 @@
     text-align: center;
     padding: 14px 0px ;
     background-color: #4E6557;
-}
 
-.conocenos__Imagen{
-    width: 100% ;
-}
-.section__conocenos__contenedor--vertical{
-    display: flex;
-    flex-direction: column;
-    font-weight: bold;
-    font-family: 'Bodoni Moda', serif;
-    color: white;
-    text-align: center;
-    padding: 14px 0px ;
-}
+        &__contenedor{
+            display: flex;
+        }
+        
+
+    }

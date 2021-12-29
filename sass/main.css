@@ -281,23 +281,10 @@ footer a {
   background-color: #4E6557;
 }
 
-.conocenos__Imagen {
-  width: 100%;
-}
-
-.section__conocenos__contenedor--vertical {
+.section__conocenos__contenedor {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  font-weight: bold;
-  font-family: 'Bodoni Moda', serif;
-  color: white;
-  text-align: center;
-  padding: 14px 0px;
 }
 
 .contenedor__nuestrahistoria {
@@ -563,5 +550,29 @@ footer a {
   .navbar-brand {
     display: none;
   }
+}
+
+.conocenos__Imagen--miembro-1 {
+  background-image: url("../img/miembro-1.jpeg");
+}
+
+.conocenos__Imagen--miembro-2 {
+  background-image: url("../img/miembro-2.jpeg");
+}
+
+.conocenos__Imagen--miembro-3 {
+  background-image: url("../img/miembro-3.jpeg");
+}
+
+.conocenos__Imagen--miembro-4 {
+  background-image: url("../img/miembro-4.jpeg");
+}
+
+.conocenos__Imagen--miembro-5 {
+  background-image: url("../img/miembro-5.jpeg");
+}
+
+.conocenos__Imagen--miembro-6 {
+  background-image: url("../img/miembro-6.jpeg");
 }
 /*# sourceMappingURL=main.css.map */
