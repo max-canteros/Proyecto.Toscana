@@ -1,16 +1,25 @@
-.section__conocenos{
-    display: flex;
-    gap: 20px;
+@mixin fontstyle {
     font-weight: bold;
     font-family: 'Bodoni Moda', serif;
     color:white;
     text-align: center;
+    
+}
+
+.section__conocenos{
+    display: flex;
+    gap: 20px;
     padding: 14px 0px ;
     background-color: #4E6557;
+    @include fontstyle();
+}
 
-        &__contenedor{
-            display: flex;
-        }
-        
-
-    }
+.conocenos__Imagen{
+    width: 100% ;
+}
+.section__conocenos__contenedor--vertical{
+    display: flex;
+    flex-direction: column;
+    padding: 14px 0px ;
+    @include fontstyle();
+}
