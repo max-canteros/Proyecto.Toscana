@@ -1,4 +1,12 @@
 @import"vars";
+@mixin fontstyle($color, $font-weight) {
+    text-align: center;
+    color: $color;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: $font-weight;
+    font-size: 1.3rem;
+    line-height: 2;
+}
 
 .complemento__footer{
     background-color:white;
@@ -10,18 +18,12 @@
 
 .contenedor__footer{
     flex-basis: 50%;
-    text-align: center;
-    color:white;
-    font-family: 'Bodoni Moda', serif;
-    font-weight: 500;
-    font-size: 1.3rem;
-    line-height: 2;
+    @include fontstyle($color-secundario,500);
 }
 .sub__text{
     text-align: center;
-    color: $color-secundario;
-    font-size: 2rem;
-    line-height: 2;
+    @include fontstyle($color-secundario,500);
+
 }
 .footer__image--redes{
     width: 80px;
@@ -34,13 +36,13 @@
 }
 footer a{
     display: block;
-    color: $color-secundario;
-    text-decoration: none;
-    font-family: 'Bodoni Moda', serif;
-    font-weight: 500;
-    font-size: 1.3rem;
+    @include fontstyle($color-secundario,300);
     display: inline-block;
     justify-content: center;
+    text-decoration: none;
+    &:hover{
+        color: $color-secundario !important;
+}
 }
 .trip{
     width: 100%;

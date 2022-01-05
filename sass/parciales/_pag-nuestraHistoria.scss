@@ -1,6 +1,17 @@
+@import"vars";
+@mixin fontstyle($color, $font-weight, $line-height) {
+    text-align: center;
+    color: $color;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: $font-weight;
+    font-size: 1.3rem;
+    line-height: $line-height;
+ 
+}
+
 .contenedor__nuestrahistoria{
     display: grid;
-    background-color: #4E6557;
+    background-color: $color-secundario;
     grid-template-columns: 1fr 1fr 1fr; 
     gap: 1rem;
     padding: 1rem;
@@ -14,12 +25,7 @@
     text-align: left;
     align-self: center;
     margin-bottom: 20px;
-    font-size: 21px;
-    font-weight: 300;
-    line-height: 1.4;
-    font-family: 'Bodoni Moda', serif;
-    color:whitesmoke;
-    font-style: italic;
+    @include fontstyle(whitesmoke, 300, 1.4);   
 }
 .nuestrahistoria--titulo{
     color: black;
@@ -28,12 +34,7 @@
     text-align: center;
     align-self: center;
     margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
-    font-family: 'Bodoni Moda', serif;
-    color:whitesmoke;
-    font-style: italic;
-    font-weight: lighter;
+    @include fontstyle(whitesmoke, 300, lighter)
 }
 
 
@@ -41,7 +42,6 @@
     text-align: center;
     align-self: center;
     margin-bottom: 20px;
-
 }
 .nuestrahistoria--flexTexto{
     display: flex;
@@ -50,7 +50,7 @@
     gap: 3rem;
     text-align: justify;
     font-family: 'Abel', sans-serif;
-    font-size: 18px;
+    font-size: .1.3rem;
     line-height: 1.5;
     color: #333333;
 }
@@ -58,7 +58,7 @@
 .nuestrahistoria--flexTexto1{
     text-align: justify;
     font-family: 'Abel', sans-serif;
-    font-size: 18px;
+    font-size: 1.3rem;
     line-height: 1.5;
     color: #729981;
     font-weight: lighter;
