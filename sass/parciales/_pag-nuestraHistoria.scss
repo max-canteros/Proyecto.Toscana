@@ -2,7 +2,7 @@
 @mixin fontstyle($color, $font-weight, $line-height) {
     text-align: center;
     color: $color;
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: $font-weight;
     font-size: 1.3rem;
     line-height: $line-height;

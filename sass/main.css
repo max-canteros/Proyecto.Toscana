@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,700;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -59,7 +59,7 @@
   color: white !important;
   padding: 30px 10px;
   text-decoration: none;
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 1.2rem;
   -webkit-transition: all .5s ease;
@@ -76,7 +76,7 @@ main a {
   color: white;
   padding: 30px 60px;
   text-decoration: none;
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 1.3rem;
   -webkit-transition: all .5s ease;
@@ -93,7 +93,7 @@ section a {
   color: white !important;
   padding: 30px 60px;
   text-decoration: none;
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 1.3rem;
   text-align: center;
@@ -108,7 +108,7 @@ section a.sub__text:hover {
 }
 
 .hero__contenedor {
-  background-image: url(../../img/imagen-apaisada.jpg);
+  background-image: url(/img/imagen-apaisada.jpg);
   height: 120vh;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -159,7 +159,7 @@ section a.sub__text:hover {
   text-align-last: center;
   text-transform: uppercase;
   color: white !important;
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-size: 1.7rem;
   line-height: 3;
@@ -168,7 +168,7 @@ section a.sub__text:hover {
 
 .contenedor__main--texto {
   color: white !important;
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   font-size: 1.3rem;
   line-height: 2;
@@ -230,7 +230,7 @@ section a.sub__text:hover {
   padding: 30px;
   text-align: center;
   color: #4c5548;
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.5;
@@ -255,7 +255,7 @@ section a.sub__text:hover {
 .contenedor__footer__text {
   text-align: center;
   color: #333333;
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.5;
@@ -265,7 +265,7 @@ section a.sub__text:hover {
   text-align: center;
   text-align: center;
   color: #650D03;
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.5;
@@ -286,7 +286,7 @@ footer a {
   display: block;
   text-align: center;
   color: #4c5548;
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.5;
@@ -307,12 +307,12 @@ footer a:hover {
   display: flex;
   background-color: #4E6557;
   font-weight: normal;
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Open Sans', sans-serif;
   color: white;
   text-align: justify;
   font-size: 0.1 0.3rem;
   line-height: 1.5;
-  background-image: url(../../img/portadaconocenos.jpg);
+  background-image: url(/img/portadaconocenos.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -335,7 +335,7 @@ footer a:hover {
       flex-basis: 50%;
   padding: 150px 50px 150px 50px;
   font-weight: normal;
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Open Sans', sans-serif;
   color: white;
   text-align: justify;
   font-size: 0.1 0.3rem;
@@ -358,7 +358,7 @@ footer a:hover {
       flex-basis: 50%;
   background-color: #333;
   font-weight: normal;
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Open Sans', sans-serif;
   color: white;
   text-align: justify;
   font-size: 0.1 0.3rem;
@@ -395,7 +395,7 @@ footer a:hover {
   margin-bottom: 20px;
   text-align: center;
   color: whitesmoke;
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 1.3rem;
   line-height: 1.4;
@@ -413,7 +413,7 @@ footer a:hover {
   margin-bottom: 20px;
   text-align: center;
   color: whitesmoke;
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 1.3rem;
   line-height: lighter;
@@ -467,7 +467,7 @@ footer a:hover {
 
 .body__form .form .form__header .form__title {
   font-weight: normal;
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
   text-align: center;
   padding: 14px 0px;
@@ -491,7 +491,7 @@ footer a:hover {
   display: block;
   color: #4E6557;
   font-size: 16px;
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Open Sans', sans-serif;
   position: relative;
 }
 
@@ -506,7 +506,7 @@ footer a:hover {
   border-radius: 2px;
   font-size: 14px;
   color: white;
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .body__form .form .form__textarea {
@@ -517,7 +517,7 @@ footer a:hover {
 
 .body__form .form .btn__submit {
   width: 100%;
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Open Sans', sans-serif;
   background-color: #4E6557;
   font-size: 16px;
   border: none;
@@ -548,6 +548,7 @@ footer a:hover {
   border-radius: 2px;
   background-color: whitesmoke;
   opacity: 0.9;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .menu-contenedor__tarjeta--img {
@@ -555,12 +556,14 @@ footer a:hover {
   height: 100%;
   -webkit-filter: saturate(80%);
           filter: saturate(80%);
+  font-family: 'Open Sans', sans-serif;
 }
 
 .card-body {
   background-color: whitesmoke;
   opacity: 0.9;
   height: 150px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .contenedor__delivery {
@@ -624,7 +627,7 @@ footer a:hover {
   .contenedor__main {
     text-align: justify;
     color: white;
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     line-height: 1.5;
   }
