@@ -12,6 +12,7 @@ main a{
     
     &:hover{
         background-color: $color-terciario; 
+        height: 110%;
     }
 }
 
@@ -28,35 +29,34 @@ section a{
     &:hover{
         background-color: $color-terciario;
     }
+    &.sub__text:hover{
+        background-color: $color-secundario;
+    }
+
 }
+
+
 
 .hero__contenedor{
-    background-image: url(../img/imagen-apaisada.jpeg);
-    height: 800px;
-    background-position: top;
+    background-image: url(../../img/imagen-apaisada.jpg);
+    height: 120vh;
     background-repeat: no-repeat;
     display: flex;
-    align-items: center;
     background-size: cover;
+    background-position-x: left;
+    background-position-y: bottom;
+    filter: grayscale(80%);
 } 
-
-.hero__texto{
-    width: 1000px;
-    color:white !important;
-    padding: 30px 60px;
-    text-decoration: none;
-    font-family: 'Bodoni Moda', serif;
-    font-weight: 700;
-    font-size: 6rem;
-    margin-left: 90px;
-    font-style: bold;
-}
+           
 
 .nav__menu--hero{
-    display: flex;
+    display: inline;
     text-decoration: none;
     list-style: none;
-    background-color: $color-secundario;
     justify-content: center;
     margin-bottom: 0px;
+    &--item{
+        background-color: $color-principal;
+
+    }
 }

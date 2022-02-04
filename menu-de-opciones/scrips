@@ -1,0 +1,50 @@
+
+                 <h5 class="card-title">Fugazzeta</h5>
+          <p class="card-text">Cebolla, Muzzarella, Orégano, Ají molido, Aceitunas negras.</p>
+          <p class="card-text"><small class="text-muted">$825</small></p>
+           </div>  
+</div>
+<div class="section__conocenos__contenedor--vertical">
+  <div class="section__conocenos__contenedor">
+    <img class="conocenos__Imagen" src="../img/miembro-1.jpeg" alt="">
+
+  </div>
+  <div class="section__conocenos__contenedor">
+    <img class="conocenos__Imagen" src="../img/miembro-2.jpeg" alt="">
+        <h5 class="card-title">Especial</h5>
+      <p class="card-text">Salsa de tomate, Muzzarella, Jamon, Morrón, Orégano, Aceitunas verdes.</p>
+      <p class="card-text"><small class="text-muted">$885</small></p>
+  </div>
+  <div class="section__conocenos__contenedor">
+    <img class="conocenos__Imagen" src="../img/miembro-2.jpeg" alt="">
+       <h5 class="card-title">Fugazzeta</h5>
+      <p class="card-text">Cebolla, Muzzarella, Orégano, Ají molido, Aceitunas negras.</p>
+      <p class="card-text"><small class="text-muted">$825</small></p>
+  </div>  
+</div>
+<div class="section__conocenos__contenedor--vertical">
+  <div class="section__conocenos__contenedor">
+    <img class="conocenos__Imagen" src="../img/miembro-1.jpeg" alt="">
+        <h5 class="card-title">Especial</h5>
+        <p class="card-text">Salsa de tomate, Muzzarella, Jamon, Morrón, Orégano, Aceitunas verdes.</p>
+        <p class="card-text"><small class="text-muted">$885</small></p>
+  </div>
+  <div class="section__conocenos__contenedor">
+    <img class="conocenos__Imagen" src="../img/miembro-2.jpeg" alt="">
+    <h5 class="card-title">Especial</h5>
+    <p class="card-text">Salsa de tomate, Muzzarella, Jamon, Morrón, Orégano, Aceitunas verdes.</p>
+      <p class="card-text"><small class="text-muted">$885</small></p>
+  </div>
+  <div class="section__conocenos__contenedor">
+    <img class="conocenos__Imagen" src="../img/miembro-2.jpeg" alt="">
+      <h5 class="card-title">Fugazzeta</h5>
+      <p class="card-text">Cebolla, Muzzarella, Orégano, Ají molido, Aceitunas negras.</p>
+      <p class="card-text"><small class="text-muted">$825</small></p>
+  </div>  
+</div>
+</section>
+        
+   
+      
+      
+      

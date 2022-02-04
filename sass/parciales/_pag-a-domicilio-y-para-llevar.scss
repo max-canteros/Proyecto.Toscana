@@ -1,0 +1,15 @@
+.contenedor__delivery{
+    background-color: $color-secundario;
+    display: flex;
+    justify-content: center;
+
+
+            &--imagen{          
+                filter: grayscale(80%);
+                height: 70%;
+                width: 100%;
+                
+                padding-top: 100px;
+                padding-bottom: 100px;
+            }
+}

@@ -4,25 +4,21 @@
     display: flex;
     justify-content: space-between;
     margin: 20px 40px;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
 
     &__logo{
         display: inline;
-        padding: 0px;
+        margin: 20px;
+        height: 150px;
 
         &:hover{
             transition-duration: 2s;
+            
         }
     }
 
-    &__idioma{
-        display: flex;
-        align-items: center;
-    }
-
-    &__logoidioma{
-        width: 20px;
-        height: 20px;
-    }
 }
 
     .barra__separadora{

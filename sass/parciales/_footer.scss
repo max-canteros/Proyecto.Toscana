@@ -4,29 +4,46 @@
     color: $color;
     font-family: 'Bodoni Moda', serif;
     font-weight: $font-weight;
-    font-size: 1.3rem;
-    line-height: 2;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 .complemento__footer{
     background-color:white;
     display: flex;
     justify-content: space-between;
-    gap: 50px;
     width: 100%;
 }
 
 .contenedor__footer{
     flex-basis: 50%;
-    @include fontstyle($color-secundario,500);
+    padding: 30px;
+    @include fontstyle($color-secundario,normal);
+                &--img{
+                    height: 150px;
+                    filter: opacity(18%);
+                }
+                &__titulo{
+                    color: black;
+                    font-size: 24px;
+                    font-weight: bold;
+                    line-height: 1;
+                    text-transform: uppercase;
+                    margin-bottom: 30px;
+                    margin-top: 15px;
+                }
+                &__text{
+                    @include fontstyle(#333333,normal);
+                }
 }
 .sub__text{
     text-align: center;
-    @include fontstyle($color-secundario,500);
+    @include fontstyle($color-principal,500);
 
 }
 .footer__image--redes{
-    width: 80px;
+    width: 40px;
+    margin: 0 15px 0 15px;
 }
 .navegador__footer{
     list-style: none;
@@ -43,7 +60,4 @@ footer a{
     &:hover{
         color: $color-secundario !important;
 }
-}
-.trip{
-    width: 100%;
 }
